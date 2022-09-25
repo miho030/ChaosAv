@@ -1,6 +1,10 @@
 # _*_ coding:utf-8 _*_
-import glob
-import mmap
+"""markdown
+* Author          : miho030(github)
+* lastest update  : 25. 09. 2022
+* file type : ChaosAv EngineAPI Class
+"""
+
 import os
 import hashlib
 

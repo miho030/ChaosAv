@@ -1,12 +1,16 @@
+# _*_ coding:utf-8 _*_
+"""markdown
+* Author          : miho030(github)
+* lastest update  : 25. 09. 2022
+* file type : ChaosAv MainEngine Class
+"""
+
 import os
-import sys
 from EngineAPI import EngineInstance
 
-
-""" Create engine instance """
+# ---------------------------------  * * *  ---------------------------------
 EngineInst = EngineInstance()
 
-""" Global variables """
 vecMalSize = []
 vecParsedMalDB = []
 vecBenignFileList = []
@@ -22,18 +26,27 @@ vecMalSig = \
     "ANTIVIRUS-TEST-FILE!"
 ]
 
-
-
+# ---------------------------------  * * *  ---------------------------------
 class ChaosAv:
     def _Init(self):
         self.Malware_name = "EICAR_TEST_FILE"
         self.Malware_Desc = "Eicar antivirus test file"
-        return 0
 
-    def _Uninit(self):
+        self._PrintUi()
+        self._GetInfo()
+        self._GetMalwareInfo()
+
+        bRes = self._GetNTSystemDirList()
+        if bRes == True:
+            return True
+        else:
+            return False
+
+    def _Uninit(self, bUninit):
         del self.Malware_name
         del self.Malware_Desc
         return 0
+
 
     def _PrintUi(self):
         """ test mode interface """
@@ -58,6 +71,7 @@ class ChaosAv:
         ScanEngineList.append("EICAR-Test-File (not a malware)")
 
         return ScanEngineList
+
 
     def _GetMalwareInfo(self):
         for strMalPattern in vecMalwareDB:
@@ -99,6 +113,7 @@ class ChaosAv:
             strDirPath = os.path.abspath(strScanDir)
             if os.path.isdir(strScanDir):
                 self.__GetNTSystemFiles(strDirPath)
+                return True
             else:
                 return NotADirectoryError
         else:
@@ -159,21 +174,14 @@ class ChaosAv:
         return False
 
 
+# ---------------------------------  * * *  ---------------------------------
 def main():
     ChaosInst = ChaosAv()
 
-    ChaosInst._Init()
-
-    ChaosInst._PrintUi()
-    ChaosInst._GetInfo()
-    ChaosInst._GetMalwareInfo()
-    ChaosInst._GetNTSystemDirList()
-
-    ChaosInst._Uninit()
-
+    bIsInit = ChaosInst._Init()
+    if bIsInit == False:
+        ChaosInst._Uninit(bIsInit)
 
 if __name__ == '__main__':
     main()
-
-
-
+# ---------------------------------  * * *  ---------------------------------
