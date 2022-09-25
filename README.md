@@ -31,14 +31,19 @@
 ```
 
 <h2 align="center">Usage</h2>
+* * *
 ```python
 $ python ChaosAv.py
 ```
 
 <h2 align="center">Release</h2>
+* * *
 ```
+1
 ```
 
 <h2 align="center">Lastest update</h2>
+* * *
 ```
+1
 ```
