@@ -6,9 +6,7 @@
    <br><br>
 </p>
 
-<p align="center">
-   <h1 align="center">ChaosAv</h1>
-</p>
+
 
 <center># ChaosAv</center>
 ```
