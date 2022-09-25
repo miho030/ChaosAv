@@ -8,7 +8,7 @@
 <p align="center">
    
 </p>
-https://img.shields.io/badge/github-GIVEME--STAR-red
+
 
 
 # ChaosAv
