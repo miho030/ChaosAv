@@ -1,4 +1,4 @@
-<img src="https://media.discordapp.net/attachments/568086004582449152/1023591532080668722/145.JPG" width="150" height="150" alt="ChaosAv image file">
+<img src="https://media.discordapp.net/attachments/568086004582449152/1023591532080668722/145.JPG" width="200" height="200" alt="ChaosAv image file">
 # ChaosAv
 
 ### Description
