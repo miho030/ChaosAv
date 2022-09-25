@@ -1,4 +1,4 @@
-<img src="./resource/img/ChaosAV_banner.png" width="400" height="210" alt="ChaosAv image file">
+<img src="./resource/img/ChaosAV_banner.png" width="400" height="215" alt="ChaosAv image file">
 
 # ChaosAv
 이 저장소는 개인 연구 프로젝트로서, 유명 신/변종 악성코드에 대해 그에 해당하는
