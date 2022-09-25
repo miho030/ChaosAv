@@ -1,4 +1,6 @@
-.. image:: https://media.discordapp.net/attachments/568086004582449152/1023591532080668722/145.JPG
+<img src="https://media.discordapp.net/attachments/568086004582449152/1023591532080668722/145.JPG" width="가로 사이즈" height="세로 사이즈" alt="ChaosAv image file">
+
+.. image:: 
    :alt: Chaos AntiVirus
    :target: 
 
