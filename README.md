@@ -5,6 +5,9 @@
    <p align="center">이 저장소는 개인 연구 프로젝트로서, 유명 신/변종 악성코드에 대해 그에 해당하는전용 백신의 R&D 및 공유 목적으로 개설되었습니다.</p>
    <br><br>
 </p>
+<p align="center">
+   https://img.shields.io/badge/github-GIVEME--STAR-red
+</p>
 
 
 
