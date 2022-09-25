@@ -17,9 +17,9 @@
 ```
 └─ ChaosAV
    ├─ resource
-   │  └─ img 
-   │    ├─ ChaosAV_banner.png
-   │    └─ ChaosAV_Logo.png
+   │   └─ img 
+   │      ├─ ChaosAV_banner.png
+   │      └─ ChaosAV_Logo.png
    │
    ├─ ChaosAv.py
    ├─ EngineAPI.py
