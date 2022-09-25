@@ -1,7 +1,7 @@
 <p align="center">
    <img src="./resource/img/ChaosAV_banner.png" width="400" height="215" alt="ChaosAv image file">
-   <h2 align="center">Chaos Anti Virus</h2>
-   <p align="center">안정적이고 최적화된 구조를 가진 전용백신 자동배포시스템 개발</p>
+   <h1 align="center">Chaos Anti Virus</h2>
+   <h2 align="center">안정적이고 최적화된 구조를 가진 전용백신 자동배포시스템 개발</p>
    <p align="center">이 저장소는 개인 연구 프로젝트로서, 유명 신/변종 악성코드에 대해 그에 해당하는전용 백신의 R&D 및 공유 목적으로 개설되었습니다.</p>
    <br><br>
 </p>
