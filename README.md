@@ -9,4 +9,5 @@
 
 ## usage
 ```python
+$ python ChaosAv.py
 ```
