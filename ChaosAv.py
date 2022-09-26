@@ -103,15 +103,17 @@ class ChaosAv:
 
     def _GetNTSystemDirList(self):
         strScanDir = str(input("[+] Select your Directory which you want to scan(E.x : C://) : "))
-        nSize = len(strScanDir)
+        strfilteredScanDir = strScanDir.lstrip().rstrip()
+        nSize = len(strfilteredScanDir)
 
         if nSize == 1:
-            strTmpDir = strScanDir + ":\\"
+            strTmpDir = strfilteredScanDir + ":\\"
             strDrivePath = os.path.abspath(strTmpDir)
+            self.__GetNTSystemFiles(strDrivePath)
 
         elif nSize != 1:
-            strDirPath = os.path.abspath(strScanDir)
-            if os.path.isdir(strScanDir):
+            strDirPath = os.path.abspath(strfilteredScanDir)
+            if os.path.isdir(strfilteredScanDir):
                 self.__GetNTSystemFiles(strDirPath)
                 return True
             else:
